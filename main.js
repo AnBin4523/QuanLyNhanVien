@@ -87,7 +87,7 @@ function renderListNV(data) {
                 <td>${nhanVien.totalSalary}</td>
                 <td>${nhanVien.loaiNhanVien}</td>
                 <td>
-                    <button class = "btn btn-info" onclick = "suaNV('${nhanVien.taiKhoan}')">Sửa</button>
+                    <button class = "btn btn-info" data-toggle="modal" data-target="#myModal" onclick = "suaNV('${nhanVien.taiKhoan}')">Sửa</button>
                     <button onclick = "xoaNV('${nhanVien.taiKhoan}')" class = "btn btn-danger">Xóa</button>
                 </td>
             <tr>
